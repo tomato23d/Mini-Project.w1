@@ -2,7 +2,7 @@
    body {margin: 10px; padding: 0; background-color: #999900; box-sizing: border-box;}
    
 
-    header { font: sans-serif;  color: #eaea76; text-align: right;
+    header { color: #eaea76; text-align: right;
 	border-bottom: 3px solid black;}
 	
 	
@@ -15,17 +15,20 @@
 
 	
 	.display {display: block; width: 50%; border: 3px #eaea76 solid; padding: 20px 2px;
-		background-color: #eaea76;
-			margin-left: auto; margin-right: auto}
+		background-color: #eaea76; margin-left: auto; margin-right: auto}
 	
 
     .caption {background-color: #eaea76;
 		color: #36430e;
-		font: italic smaller sans-serif size 10 px;
+		font: italic smaller size 10 px;
 		text-align: center;}
 
-	#parastyle {width : 70%; margin: auto; font-style: italic;
-	font-weight: 300; font-size: 3rem;}
+	#parastyle {width : 70%; margin: auto; font-style: italic; font-weight: 300; font-size: 3rem;}
+
+form.mynewform {display: table}
+div.newform {display: table-row}
+label, input {display: table-cell;}
+label {padding-right: 10px;}
 
 
 	footer {color: #eaea76 ; text-align: right; }
